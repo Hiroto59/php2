@@ -31,3 +31,32 @@ $calendar_2018 = [
     "December" => "12月"
 ];
 echo $calendar_2018["December"];
+
+$name = "ひろと";
+
+if($name == "ひろ") {
+  echo "私はひろとです";
+}else {
+  echo "ひろとではありません";
+}
+
+$total = 0;
+echo $total;
+for($i = 0; $i <= 10000; $i++) {
+  $total += $i;
+}
+echo $total;
+
+$fruits = array("apple", "orange", "cherry", "banana", "grape");
+foreach($fruits as $fruits) {
+  echo $fruits;
+}
+
+$start = 1;
+$end = 101;
+
+for($i = $start; $i < $end; $i++) {
+  if($i % 5== 0) {
+    echo $i;
+  }
+}
